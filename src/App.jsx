@@ -1,4 +1,5 @@
-import {useState} from "react";
+import { useState } from "react";
+import CardComponent from "./Components/card-component";
 
 function App() {
   const [value, setValue] = useState(0);
@@ -40,8 +41,11 @@ AddValue
 <br />
 <button onClick={DecreaseValue}>
   Decrease Value {value}
-</button>
-   </div>
+        </button>
+        
+      </div>
+      <br />
+      < CardComponent title="React" btntext="Visit"/>
    </>
   )
 }
