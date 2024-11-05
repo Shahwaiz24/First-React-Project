@@ -26,12 +26,12 @@ function App() {
 
   return (
    <>
-   <div >
+   <div className="flex justify-center flex-col bg-yellow-300 text-center">
         <h1 >{warningValue}</h1>
+    <br/>
+        <h1 className="text-3xl">My First Counter {value}</h1>
     <br />
-        <h1 className="text-3xl font-bold underline">My First Counter {value}</h1>
-    <br />
-    <button onClick={
+    <button className="bg-blue-300  rounded" onClick={
 AddValue
 }
 >
