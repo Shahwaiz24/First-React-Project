@@ -26,10 +26,10 @@ function App() {
 
   return (
    <>
-   <div>
-    <h1>{warningValue}</h1>
+   <div >
+        <h1 >{warningValue}</h1>
     <br />
-    <h1>My First Counter {value}</h1>
+        <h1 className="text-3xl font-bold underline">My First Counter {value}</h1>
     <br />
     <button onClick={
 AddValue
